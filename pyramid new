@@ -1,0 +1,19 @@
+n = int(input())
+
+i = 1
+while i<=n:
+    spaces = 1
+    while spaces <=n-i:
+        print(' ',end = '')
+        spaces +=1
+    nos = i
+    while nos>=1:
+        print(nos,end = '')
+        nos -=1
+    nos1 = 2
+    while nos1<=i:
+        print(nos1,end = '')
+        nos1 +=1
+        #print()
+    i+=1
+    print()
